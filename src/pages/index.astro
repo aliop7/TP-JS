@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import EventForm from "../components/EventForm.astro";
+---
+
+<Layout title="Gestion d'Événements Locaux">
+  <main class="h-screen">
+    <div class="flex h-full">
+      <div id="map" class="basis-3/4 h-full"></div>
+      <div class="basis-1/4 h-full">
+        <EventForm />
+      </div>
+    </div>
+  </main>
+</Layout>
